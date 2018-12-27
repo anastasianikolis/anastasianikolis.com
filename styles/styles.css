@@ -1,0 +1,83 @@
+/* General Styles 
+-----------------------------------*/
+body {
+  background-color: #FCFFFE;
+
+  font-size: 18px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #14A834;
+}
+
+header {
+  text-align: center;
+}
+
+/* Landing Styles 
+-----------------------------------*/
+main.landing {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-left {
+  margin: 0 2rem;
+  text-align: center;
+}
+
+.landing-right {
+  margin: 0 2rem;
+  padding: 0 5rem;
+  border-left: .1rem solid #333;
+}
+
+#headshot {
+  width: 15rem;
+  height: 15rem;
+}
+
+.landing-menu {
+  padding: 0;
+  list-style: none;
+}
+
+.landing-menu li {
+  margin: 1.2rem 0;
+}
+
+/* Content Page Styles 
+-----------------------------------*/
+.page-menu {
+  margin-bottom: 2rem;
+}
+
+.page-menu li {
+  display: inline;
+  padding: 0rem 1.4rem;
+}
+
+main.about {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-headshot {
+  margin: 0 2rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+#about-description {
+  margin: 0 2rem;
+  width: 18rem;
+  text-align: justify;
+}
