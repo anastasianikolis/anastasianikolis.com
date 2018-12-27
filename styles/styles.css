@@ -1,15 +1,27 @@
 /* General Styles 
 -----------------------------------*/
 body {
-  background-color: #FCFFFE;
+  background-color: #f6fdfa;
 
   font-size: 18px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Josefin Slab', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: normal;
+  letter-spacing: 8px;
+  color: #222;
+}
+
+h1 {
+  font-size: 2.6em;
 }
 
 nav a {
   text-decoration: none;
-  color: #14A834;
+  color: rgb(61, 101, 119);
+  font-weight: bold;
 }
 
 header {
@@ -27,19 +39,19 @@ main.landing {
 }
 
 .landing-left {
-  margin: 0 2rem;
+  margin: 1rem;
   text-align: center;
 }
 
 .landing-right {
-  margin: 0 2rem;
-  padding: 0 5rem;
-  border-left: .1rem solid #333;
+  margin: 0 3rem;
 }
 
 #headshot {
   width: 15rem;
   height: 15rem;
+
+  border: 1px solid #DDD;
 }
 
 .landing-menu {
@@ -53,12 +65,21 @@ main.landing {
 
 /* Content Page Styles 
 -----------------------------------*/
+.heading-home {
+  text-decoration: none;
+}
+.heading-home:active, .heading-home:focus, .heading-home:visited {
+  color: #222;
+}
+
 .page-menu {
   margin-bottom: 2rem;
+  padding: 0px;
 }
 
 .page-menu li {
-  display: inline;
+  display: inline-block;
+  margin-bottom: .8rem;
   padding: 0rem 1.4rem;
 }
 
@@ -67,11 +88,10 @@ main.about {
 
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 #about-headshot {
-  margin: 0 2rem;
+  margin: 0 2rem 3rem;
   width: 15rem;
   height: 15rem;
 }
