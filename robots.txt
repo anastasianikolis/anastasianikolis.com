@@ -1,0 +1,4 @@
+#Default robots.txt file 
+User-agent: *
+Crawl-delay: 1
+Disallow:
